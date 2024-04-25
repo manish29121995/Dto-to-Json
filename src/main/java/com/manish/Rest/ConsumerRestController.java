@@ -28,7 +28,7 @@ public class ConsumerRestController {
 		
 	}
 	   @GetMapping("/data/{id}")
-	    public ConsumerDto getDataById(@PathVariable Integer id) {
+	    public ConsumerDto getDataById(@PathVariable("id") Integer id) {
 	            ConsumerDto byId = serivce.findDataById(id);
                     return byId;	            
 }
