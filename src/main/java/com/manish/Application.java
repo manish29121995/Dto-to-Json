@@ -12,6 +12,8 @@ public class Application {
            String msg = "Good Morning...";
                msg = msg.toLowercase();
               String s2 = s1.concat("manish");
+               msg = msg.toLowercase();t
+	     System.out.println(msg);
 	}
 
 }
