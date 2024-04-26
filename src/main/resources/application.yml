@@ -12,3 +12,6 @@ spring:
       
 server:
   port: 9093   
+
+server:
+  port: 9094   
