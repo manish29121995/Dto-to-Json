@@ -11,4 +11,4 @@ spring:
       ddl-auto: none
       
 server:
-  port: 9093   
+  port: 9094   
