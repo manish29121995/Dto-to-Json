@@ -10,7 +10,8 @@ public class Application {
 		SpringApplication.run(Application.class, args);
                
            String msg = "Good Morning...";
-               msg = msg.toLowercase();
+               msg = msg.toLowercase();t
+	     System.out.println(msg);
 	}
 
 }
